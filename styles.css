@@ -8,16 +8,28 @@ body {
     max-width: 1200px;
     justify-content: center;
     margin: auto;
+    padding: 50px;
 }
 
 header {
     text-align: left;
 }
 
+#header_title {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: solid #8EB26A;
+    padding: 20px;
+}
+
 .flex-container {
     display: flex;
     gap: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .flex-item {
@@ -35,8 +47,9 @@ nav li {
     display: inline-block;
     padding: 5px;
     margin-right: 20px;
+    margin-bottom: 20px;
     list-style: none;
-    border: solid white;
+    border: solid #8EB26A;
 }
 
 nav ul {
@@ -45,4 +58,11 @@ nav ul {
 
 a {
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 720px) {
+    .flex-container {
+        flex-direction: column;
+    }
 }
