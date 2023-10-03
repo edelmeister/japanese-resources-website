@@ -5,7 +5,7 @@
 }
 
 body {
-    max-width: 1200px;
+    max-width: 1000px;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -33,6 +33,7 @@ footer {
     margin-bottom: 20px;
     border: solid #8EB26A;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .main-container {
