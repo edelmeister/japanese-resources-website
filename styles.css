@@ -84,6 +84,10 @@ nav li {
     border: solid #8EB26A;
 }
 
+nav li a:hover {
+    color: #FFB7C5;
+}
+
 #active_nav {
     color: #FFB7C5;
 }
